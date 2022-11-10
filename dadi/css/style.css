@@ -17,6 +17,7 @@ h1{
     height: 100px;
     background-size: cover;
     background-position: center;
+    filter: invert(1);
 }
 
 button{
@@ -44,25 +45,25 @@ h2{
 }
 
 .d1{
-
+    background-image: url("../img/dice-six-faces-one.svg");
 }
 
 .d2{
-    
+    background-image: url("../img/dice-six-faces-two.svg");
 }
 
 .d3{
-    
+    background-image: url("../img/dice-six-faces-three.svg");
 }
 
 .d4{
-    
+    background-image: url("../img/dice-six-faces-four.svg");
 }
 
 .d5{
-    
+    background-image: url("../img/dice-six-faces-five.svg");
 }
 
 .d6{
-    
+    background-image: url("../img/dice-six-faces-six.svg");
 }
