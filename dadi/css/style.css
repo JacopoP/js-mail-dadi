@@ -11,7 +11,7 @@ h1{
 
 .dice{
     display: inline-block;
-    margin: 25px 100px 50px;
+    margin: 25px 100px;
     border: 1px solid black;
     width: 100px;
     height: 100px;
@@ -34,6 +34,7 @@ button{
 
 h2{
     font-size: 40px;
+    margin-top: 25px;
 }
 
 #w{
