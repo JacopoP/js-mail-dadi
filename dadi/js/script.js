@@ -9,7 +9,7 @@ document.querySelector("button").addEventListener("mouseover",
         k=true;
         let id = null;
         clearInterval(id);
-        id = setInterval(frame, 60);
+        id = setInterval(frame, 120);
         function frame() {
             if (k==false) {
                 clearInterval(id);
