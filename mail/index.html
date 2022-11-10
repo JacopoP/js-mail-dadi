@@ -8,11 +8,28 @@
     <title>Controllo ingresso</title>
 </head>
 <body>
-    <h1>Inserisci la tua mail per accedere</h1>
-    <input type="text" placeholder="Inserisci qua la tua mail">
-    <button>Verifica</button>
-    <h2 class="hide" id="welcome">Benvenuto!</h2>
-    <h2 class="hide" id="nope">Spiacenti non sei invitato.</h2>
+    <div id="main-container">  
+        <h1>Inserisci la tua mail per accedere</h1>
+        <input type="email" id="mail" placeholder="Inserisci qua la tua mail">
+        <button id="verify">Verifica</button>
+        <button id="add">Aggiungi invitato</button>
+        <h2 class="hide" id="welcome">Benvenuto!</h2>
+        <h2 class="hide" id="nope">Spiacenti non sei invitato.</h2>
+    </div>
+    <div id="login-container" class="hide">
+        <label for="access">Accedi con la tua mail</label>
+        <input type="email" id="user">
+        <label for="password">Inserisci la password</label>
+        <input type="password" id="password">
+        <button id="login">Accedi</button>
+        <button id="cancel">Annulla</button>
+    </div>
+    <div id="add-container" class="hide">
+        <label for="new-mail">Inserisci qua la mail da invitare</label>
+        <input type="email" id="new-mail">
+        <button id="invite">Invita</button>
+        <button id="return">Ritorna alla schermata di verifica</button>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -32,8 +32,32 @@ input{
     width: 500px;
     margin-bottom: 20px;
     text-align: left;
+    max-width: 100%;
 }
 
 input, button{
     padding: 10px 20px;
+}
+
+#login-container{
+    width: 30%;
+    border: 1px solid black;
+    padding: 30px 10px 20px;
+    margin: 75px auto;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#add-container{
+    width: 500px;
+    margin: 75px auto;
+}
+
+#add{
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
